@@ -25,7 +25,7 @@ RUN mkdir -m 777 -p /opt $QODANA_DATA $QODANA_CONF && \
 	git config --global --add safe.directory '*' && \
 	rm -rf /var/cache/apt /var/lib/apt/ /tmp/*
 
-ARG QD_BUILD=QDGO-2023.2
+ARG QD_BUILD=QDGO-232.9856.134
 ARG QD_RELEASE=2023.2
 
 RUN set -ex && \
